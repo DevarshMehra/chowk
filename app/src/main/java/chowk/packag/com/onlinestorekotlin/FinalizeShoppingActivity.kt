@@ -37,7 +37,11 @@ class FinalizeShoppingActivity : AppCompatActivity() {
             ttPrice = response.toLong() // we are saving total price in ttpirce as this ttprice we can use later in the paypal service below
 
         }, Response.ErrorListener { error ->
-
+            
+            val dialogBuilder= AlertDialog.Builder(this)
+            dialogBuilder.setTitle("Message")
+            dialogBuilder.setMessage(error.message)
+            dialogBuilder.create().show()            
 
         })
 
