@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000ff"
+    android:orientation="vertical"
+    tools:context=".SignUpLayout">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/signup" />
+
+    <EditText
+        android:id="@+id/sign_up_layout_edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#ff8000"
+        android:drawableRight="@drawable/email"
+        android:ems="10"
+        android:hint="Please enter an email address..."
+        android:inputType="textEmailAddress"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/sign_up_layout_edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#ff8000"
+        android:drawableRight="@drawable/username"
+        android:ems="10"
+        android:hint="Please enter an username..."
+        android:inputType="text"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/sign_up_layout_edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#ff8000"
+        android:drawableRight="@drawable/password"
+        android:ems="10"
+        android:hint="Please enter Password..."
+        android:inputType="textPassword"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/sign_up_layout_edtConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#ff8000"
+        android:drawableRight="@drawable/confirm"
+        android:ems="10"
+        android:hint="Please confirm the password..."
+        android:inputType="textPassword"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/sign_up_layout_btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#7f00ff"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/sign_up_layout_btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#7f00ff"
+        android:text="log in "
+        android:textColor="#fff"
+        android:textSize="30sp" />
+</LinearLayout>
