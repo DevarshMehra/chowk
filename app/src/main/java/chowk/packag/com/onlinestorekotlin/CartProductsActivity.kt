@@ -44,9 +44,12 @@ class CartProductsActivity : AppCompatActivity() {
             cartProductsListView.adapter = cartProductsAdapter
 
         }, Response.ErrorListener { error ->
-
-
-
+            
+            val dialogBuilder= AlertDialog.Builder(this)
+            dialogBuilder.setTitle("Message")
+            dialogBuilder.setMessage(error.message)
+            dialogBuilder.create().show()
+                
         })
 
 
@@ -90,9 +93,12 @@ class CartProductsActivity : AppCompatActivity() {
 
            }, Response.ErrorListener {
                error ->
-
-
-
+               
+               val dialogBuilder= AlertDialog.Builder(this)
+               dialogBuilder.setTitle("Message")
+               dialogBuilder.setMessage(error.message)
+               dialogBuilder.create().show()
+               
            })
 
            requestQ.add(stringRequest)
@@ -123,7 +129,14 @@ class CartProductsActivity : AppCompatActivity() {
                startActivity(intent)
 
 
-           }, Response.ErrorListener { error ->  })
+           }, Response.ErrorListener { error ->  
+               
+               val dialogBuilder= AlertDialog.Builder(this)
+               dialogBuilder.setTitle("Message")
+               dialogBuilder.setMessage(error.message)
+               dialogBuilder.create().show()
+           
+           })
 
 
 
