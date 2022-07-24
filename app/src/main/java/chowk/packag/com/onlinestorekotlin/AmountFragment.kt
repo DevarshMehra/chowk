@@ -52,8 +52,12 @@ class AmountFragment : DialogFragment() {
 
 
             }, Response.ErrorListener { error ->
-
-
+                
+                val dialogBuilder= AlertDialog.Builder(this)
+                dialogBuilder.setTitle("Message")
+                dialogBuilder.setMessage(error.message)
+                dialogBuilder.create().show()
+                
             })
 
             requestQ.add(stringRequest)
