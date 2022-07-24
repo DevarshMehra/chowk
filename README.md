@@ -1,7 +1,7 @@
 # Chowk
 # An E-Commerce app specially made to help out villagers sell their products to a larger market.
 
-# Screenshots
+# Screenshots :-
 
 # Sign Up Activity
 
