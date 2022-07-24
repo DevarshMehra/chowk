@@ -31,6 +31,10 @@
 
 ![CartProducts_TempOrdersList](https://user-images.githubusercontent.com/65247066/180641643-e66b4223-4031-45cc-8538-e76c5718329a.png)
 
+# Top Right Cart Menu
+
+![Cart Menu](https://user-images.githubusercontent.com/65247066/180646006-4f8afb10-da33-4122-9d2b-704f58e49f47.png)
+
 # Thank You Activity
 
 ![ThankYou](https://user-images.githubusercontent.com/65247066/180641671-a7fed236-a8c9-4f40-b7fe-dcd42ea091b6.png)
