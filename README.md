@@ -1,5 +1,5 @@
 # Chowk
-# An E-Commerce application specially made to help out villagers sell their products to a larger market. Currently the app is built for buyers. For now, the villagers can send their product details to the admin and who will then upload these details in the database.
+# An E-Commerce application specially made to help out villagers sell their products to a larger market. Currently the app is built for buyers. For now, the villagers can send their product details to the admin who will then upload these details in the database.
 
 # Screenshots :-
 
